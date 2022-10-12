@@ -8,9 +8,7 @@ import StarshipDetails from './pages/StarshipDetails/StarshipDetails';
 function App() {
   return (
     <>
-      <div className='nav'>
-        <NavBar />
-      </div>
+      <NavBar />
       <Routes>
         <Route path='/' element={<StarshipList />} />
         <Route path='/starship' element={<StarshipDetails />} />
